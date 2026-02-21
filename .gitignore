@@ -1,0 +1,32 @@
+# Backend (Django)
+vegflow_backend/venv/
+vegflow_backend/.venv/
+vegflow_backend/*.sqlite3
+vegflow_backend/**/__pycache__/
+vegflow_backend/**/*.pyc
+vegflow_backend/**/*.pyo
+vegflow_backend/.env
+vegflow_backend/staticfiles/
+vegflow_backend/media/
+
+# Frontend (React)
+vegflow_frontend/node_modules/
+vegflow_frontend/build/
+vegflow_frontend/.env
+vegflow_frontend/.env.local
+vegflow_frontend/.env.production
+vegflow_frontend/npm-debug.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env and secrets (anywhere)
+.env
+.env.*
+!.env.example
